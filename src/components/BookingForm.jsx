@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { Typography, Input, Button } from "@mui/material";
 import toast from "react-hot-toast";
-import  useStore  from "../store";
+import useStore from "../store";
 
 function BookingForm({ hotel }) {
   const {
@@ -14,7 +14,11 @@ function BookingForm({ hotel }) {
 
   const onSubmit = (data) => {
     addReservation(hotel, data);
-    toast.success("Reservation made");
+    toast.success("Reservation made", {
+      style: {
+        fontFamily: "sans-serif",
+      },
+    });
   };
 
   return (

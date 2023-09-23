@@ -41,8 +41,7 @@ function HotelDetails() {
       <Card sx={{ maxWidth: 345, backgroundColor: "#e8e8e8" }}>
         <CardMedia
           sx={{ height: 140 }}
-          image={hotel.image}
-          title={hotel.name}
+          image={hotel.image}          
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
