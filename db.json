@@ -1,0 +1,34 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel Ritz",
+      "description": "Hotel de Lujo",
+      "image": "/img/hotel1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Hotel Paradise",
+      "description": "Un paraíso en la playa",
+      "image": "/img/hotel2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hotel Montaña",
+      "description": "Vistas espectaculares",
+      "image": "/img/hotel3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hotel Cityscape",
+      "description": "En el corazón de la ciudad",
+      "image": "/img/hotel4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hotel Tranquilidad",
+      "description": "Un refugio tranquilo",
+      "image": "/img/hotel5.jpg"
+    }
+  ]
+}
